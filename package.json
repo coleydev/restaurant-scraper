@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "Liam Coley",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^23.2.0",
+    "openai": "^4.24.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.5"
+  }
+}
